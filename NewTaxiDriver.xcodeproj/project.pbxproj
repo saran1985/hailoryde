@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840EFC5E2106DB07005DA025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC5D2106DB07005DA025 /* AppDelegate.m */; };
+		840EFC612106DB07005DA025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC602106DB07005DA025 /* ViewController.m */; };
+		840EFC642106DB07005DA025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC622106DB07005DA025 /* Main.storyboard */; };
+		840EFC662106DB08005DA025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC652106DB08005DA025 /* Assets.xcassets */; };
+		840EFC692106DB08005DA025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC672106DB08005DA025 /* LaunchScreen.storyboard */; };
+		840EFC6C2106DB08005DA025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC6B2106DB08005DA025 /* main.m */; };
+		840EFC762106DB09005DA025 /* NewTaxiDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC752106DB09005DA025 /* NewTaxiDriverTests.m */; };
+		840EFC812106DB09005DA025 /* NewTaxiDriverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC802106DB09005DA025 /* NewTaxiDriverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840EFC722106DB09005DA025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EFC512106DB07005DA025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840EFC582106DB07005DA025;
+			remoteInfo = NewTaxiDriver;
+		};
+		840EFC7D2106DB09005DA025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840EFC512106DB07005DA025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840EFC582106DB07005DA025;
+			remoteInfo = NewTaxiDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840EFC592106DB07005DA025 /* NewTaxiDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTaxiDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840EFC5C2106DB07005DA025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840EFC5D2106DB07005DA025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840EFC5F2106DB07005DA025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840EFC602106DB07005DA025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840EFC632106DB07005DA025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840EFC652106DB08005DA025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840EFC682106DB08005DA025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840EFC6A2106DB08005DA025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840EFC6B2106DB08005DA025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840EFC712106DB09005DA025 /* NewTaxiDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTaxiDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840EFC752106DB09005DA025 /* NewTaxiDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaxiDriverTests.m; sourceTree = "<group>"; };
+		840EFC772106DB09005DA025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840EFC7C2106DB09005DA025 /* NewTaxiDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTaxiDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840EFC802106DB09005DA025 /* NewTaxiDriverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaxiDriverUITests.m; sourceTree = "<group>"; };
+		840EFC822106DB09005DA025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840EFC562106DB07005DA025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EFC6E2106DB09005DA025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EFC792106DB09005DA025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840EFC502106DB07005DA025 = {
+			isa = PBXGroup;
+			children = (
+				840EFC5B2106DB07005DA025 /* NewTaxiDriver */,
+				840EFC742106DB09005DA025 /* NewTaxiDriverTests */,
+				840EFC7F2106DB09005DA025 /* NewTaxiDriverUITests */,
+				840EFC5A2106DB07005DA025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840EFC5A2106DB07005DA025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC592106DB07005DA025 /* NewTaxiDriver.app */,
+				840EFC712106DB09005DA025 /* NewTaxiDriverTests.xctest */,
+				840EFC7C2106DB09005DA025 /* NewTaxiDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840EFC5B2106DB07005DA025 /* NewTaxiDriver */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC5C2106DB07005DA025 /* AppDelegate.h */,
+				840EFC5D2106DB07005DA025 /* AppDelegate.m */,
+				840EFC5F2106DB07005DA025 /* ViewController.h */,
+				840EFC602106DB07005DA025 /* ViewController.m */,
+				840EFC622106DB07005DA025 /* Main.storyboard */,
+				840EFC652106DB08005DA025 /* Assets.xcassets */,
+				840EFC672106DB08005DA025 /* LaunchScreen.storyboard */,
+				840EFC6A2106DB08005DA025 /* Info.plist */,
+				840EFC6B2106DB08005DA025 /* main.m */,
+			);
+			path = NewTaxiDriver;
+			sourceTree = "<group>";
+		};
+		840EFC742106DB09005DA025 /* NewTaxiDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC752106DB09005DA025 /* NewTaxiDriverTests.m */,
+				840EFC772106DB09005DA025 /* Info.plist */,
+			);
+			path = NewTaxiDriverTests;
+			sourceTree = "<group>";
+		};
+		840EFC7F2106DB09005DA025 /* NewTaxiDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC802106DB09005DA025 /* NewTaxiDriverUITests.m */,
+				840EFC822106DB09005DA025 /* Info.plist */,
+			);
+			path = NewTaxiDriverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840EFC582106DB07005DA025 /* NewTaxiDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840EFC852106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriver" */;
+			buildPhases = (
+				840EFC552106DB07005DA025 /* Sources */,
+				840EFC562106DB07005DA025 /* Frameworks */,
+				840EFC572106DB07005DA025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewTaxiDriver;
+			productName = NewTaxiDriver;
+			productReference = 840EFC592106DB07005DA025 /* NewTaxiDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840EFC702106DB09005DA025 /* NewTaxiDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840EFC882106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverTests" */;
+			buildPhases = (
+				840EFC6D2106DB09005DA025 /* Sources */,
+				840EFC6E2106DB09005DA025 /* Frameworks */,
+				840EFC6F2106DB09005DA025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840EFC732106DB09005DA025 /* PBXTargetDependency */,
+			);
+			name = NewTaxiDriverTests;
+			productName = NewTaxiDriverTests;
+			productReference = 840EFC712106DB09005DA025 /* NewTaxiDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840EFC7B2106DB09005DA025 /* NewTaxiDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840EFC8B2106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverUITests" */;
+			buildPhases = (
+				840EFC782106DB09005DA025 /* Sources */,
+				840EFC792106DB09005DA025 /* Frameworks */,
+				840EFC7A2106DB09005DA025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840EFC7E2106DB09005DA025 /* PBXTargetDependency */,
+			);
+			name = NewTaxiDriverUITests;
+			productName = NewTaxiDriverUITests;
+			productReference = 840EFC7C2106DB09005DA025 /* NewTaxiDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840EFC512106DB07005DA025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					840EFC582106DB07005DA025 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					840EFC702106DB09005DA025 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 840EFC582106DB07005DA025;
+					};
+					840EFC7B2106DB09005DA025 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 840EFC582106DB07005DA025;
+					};
+				};
+			};
+			buildConfigurationList = 840EFC542106DB07005DA025 /* Build configuration list for PBXProject "NewTaxiDriver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840EFC502106DB07005DA025;
+			productRefGroup = 840EFC5A2106DB07005DA025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840EFC582106DB07005DA025 /* NewTaxiDriver */,
+				840EFC702106DB09005DA025 /* NewTaxiDriverTests */,
+				840EFC7B2106DB09005DA025 /* NewTaxiDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840EFC572106DB07005DA025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EFC692106DB08005DA025 /* LaunchScreen.storyboard in Resources */,
+				840EFC662106DB08005DA025 /* Assets.xcassets in Resources */,
+				840EFC642106DB07005DA025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EFC6F2106DB09005DA025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EFC7A2106DB09005DA025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840EFC552106DB07005DA025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EFC612106DB07005DA025 /* ViewController.m in Sources */,
+				840EFC6C2106DB08005DA025 /* main.m in Sources */,
+				840EFC5E2106DB07005DA025 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EFC6D2106DB09005DA025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EFC762106DB09005DA025 /* NewTaxiDriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840EFC782106DB09005DA025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EFC812106DB09005DA025 /* NewTaxiDriverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840EFC732106DB09005DA025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840EFC582106DB07005DA025 /* NewTaxiDriver */;
+			targetProxy = 840EFC722106DB09005DA025 /* PBXContainerItemProxy */;
+		};
+		840EFC7E2106DB09005DA025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840EFC582106DB07005DA025 /* NewTaxiDriver */;
+			targetProxy = 840EFC7D2106DB09005DA025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840EFC622106DB07005DA025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840EFC632106DB07005DA025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840EFC672106DB08005DA025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840EFC682106DB08005DA025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840EFC832106DB09005DA025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840EFC842106DB09005DA025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840EFC862106DB09005DA025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY582H2QS6;
+				INFOPLIST_FILE = NewTaxiDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840EFC872106DB09005DA025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY582H2QS6;
+				INFOPLIST_FILE = NewTaxiDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840EFC892106DB09005DA025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY582H2QS6;
+				INFOPLIST_FILE = NewTaxiDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTaxiDriver.app/NewTaxiDriver";
+			};
+			name = Debug;
+		};
+		840EFC8A2106DB09005DA025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY582H2QS6;
+				INFOPLIST_FILE = NewTaxiDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTaxiDriver.app/NewTaxiDriver";
+			};
+			name = Release;
+		};
+		840EFC8C2106DB09005DA025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY582H2QS6;
+				INFOPLIST_FILE = NewTaxiDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewTaxiDriver;
+			};
+			name = Debug;
+		};
+		840EFC8D2106DB09005DA025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY582H2QS6;
+				INFOPLIST_FILE = NewTaxiDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewTaxiDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840EFC542106DB07005DA025 /* Build configuration list for PBXProject "NewTaxiDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840EFC832106DB09005DA025 /* Debug */,
+				840EFC842106DB09005DA025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840EFC852106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840EFC862106DB09005DA025 /* Debug */,
+				840EFC872106DB09005DA025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840EFC882106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840EFC892106DB09005DA025 /* Debug */,
+				840EFC8A2106DB09005DA025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840EFC8B2106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840EFC8C2106DB09005DA025 /* Debug */,
+				840EFC8D2106DB09005DA025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840EFC512106DB07005DA025 /* Project object */;
+}
