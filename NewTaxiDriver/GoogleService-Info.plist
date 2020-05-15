@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>724671374754-agjhtqkdlthelrbmk20lv7j4hj44evg2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.724671374754-agjhtqkdlthelrbmk20lv7j4hj44evg2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>724671374754-m91e7pblabge8jk2rn7o86t5is7sedjp.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhQlBsFXWQTcezmSPdIPyCOd1wgPcsRkE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>724671374754</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.canadiansaferide.CanadianNewDriver</string>
+	<key>PROJECT_ID</key>
+	<string>canadian-safe-ride-bb284</string>
+	<key>STORAGE_BUCKET</key>
+	<string>canadian-safe-ride-bb284.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:724671374754:ios:2814ae4845921a29767efb</string>
+	<key>DATABASE_URL</key>
+	<string>https://canadian-safe-ride-bb284.firebaseio.com</string>
+</dict>
+</plist>

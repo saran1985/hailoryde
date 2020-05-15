@@ -7,7 +7,25 @@
 		<key>NewTaxiDriver.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>840EFC582106DB07005DA025</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>840EFC702106DB09005DA025</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>840EFC7B2106DB09005DA025</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

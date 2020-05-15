@@ -7,50 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840EFC5E2106DB07005DA025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC5D2106DB07005DA025 /* AppDelegate.m */; };
-		840EFC612106DB07005DA025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC602106DB07005DA025 /* ViewController.m */; };
+		1E04FC1F2111DC7200428948 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E04FC1E2111DC7200428948 /* ProfileViewController.m */; };
+		6EEC75E03CB27862C54356D2 /* libPods-NewTaxiDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F592DE6D9AF33C960123C3A /* libPods-NewTaxiDriver.a */; };
+		8409FFBE213FAF6D0081455E /* ASStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409FFBC213FAF6D0081455E /* ASStarRatingView.m */; };
 		840EFC642106DB07005DA025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC622106DB07005DA025 /* Main.storyboard */; };
 		840EFC662106DB08005DA025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC652106DB08005DA025 /* Assets.xcassets */; };
 		840EFC692106DB08005DA025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC672106DB08005DA025 /* LaunchScreen.storyboard */; };
 		840EFC6C2106DB08005DA025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC6B2106DB08005DA025 /* main.m */; };
-		840EFC762106DB09005DA025 /* NewTaxiDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC752106DB09005DA025 /* NewTaxiDriverTests.m */; };
-		840EFC812106DB09005DA025 /* NewTaxiDriverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC802106DB09005DA025 /* NewTaxiDriverUITests.m */; };
+		840EFCD12106DC7A005DA025 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC952106DC79005DA025 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		840EFCD22106DC7A005DA025 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC972106DC79005DA025 /* Location.gpx */; };
+		840EFCD32106DC7A005DA025 /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC982106DC79005DA025 /* alert.mp3 */; };
+		840EFCD42106DC7A005DA025 /* MenuViewPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC992106DC79005DA025 /* MenuViewPopup.m */; };
+		840EFCD52106DC7A005DA025 /* MenuViewPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840EFC9B2106DC79005DA025 /* MenuViewPopup.xib */; };
+		840EFCD62106DC7A005DA025 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC9E2106DC79005DA025 /* Constant.m */; };
+		840EFCD72106DC7A005DA025 /* CustomMyTripsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFC9F2106DC79005DA025 /* CustomMyTripsTableViewCell.m */; };
+		840EFCD82106DC7A005DA025 /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCA32106DC7A005DA025 /* ReportsViewController.m */; };
+		840EFCD92106DC7A005DA025 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCA62106DC7A005DA025 /* FrontViewController.m */; };
+		840EFCDA2106DC7A005DA025 /* MyTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCA92106DC7A005DA025 /* MyTripsViewController.m */; };
+		840EFCDB2106DC7A005DA025 /* TripDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCAB2106DC7A005DA025 /* TripDetailsViewController.m */; };
+		840EFCDC2106DC7A005DA025 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCAE2106DC7A005DA025 /* RegisterViewController.m */; };
+		840EFCDD2106DC7A005DA025 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCB12106DC7A005DA025 /* AlertViewController.m */; };
+		840EFCDE2106DC7A005DA025 /* VechicleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCB52106DC7A005DA025 /* VechicleDetailsViewController.m */; };
+		840EFCDF2106DC7A005DA025 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCB72106DC7A005DA025 /* LoginViewController.m */; };
+		840EFCE02106DC7A005DA025 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCBA2106DC7A005DA025 /* TrackViewController.m */; };
+		840EFCE12106DC7B005DA025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCBD2106DC7A005DA025 /* ViewController.m */; };
+		840EFCE22106DC7B005DA025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCC12106DC7A005DA025 /* AppDelegate.m */; };
+		840EFCE32106DC7B005DA025 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCC32106DC7A005DA025 /* MessageViewController.m */; };
+		840EFCE42106DC7B005DA025 /* EndRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCC72106DC7A005DA025 /* EndRideViewController.m */; };
+		840EFCE52106DC7B005DA025 /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCC92106DC7A005DA025 /* MyAccountViewController.m */; };
+		840EFCE62106DC7B005DA025 /* WorkingHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFCCC2106DC7A005DA025 /* WorkingHoursViewController.m */; };
+		84142A8521A535AE0024A66F /* slow-spring-board.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 84142A8421A535AD0024A66F /* slow-spring-board.m4r */; };
+		841DE9BF2164DA23001455E1 /* CancelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841DE9BE2164DA23001455E1 /* CancelViewController.m */; };
+		841EA3ED2177123400C563A7 /* samdoc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 841EA3EC2177123300C563A7 /* samdoc.jpeg */; };
+		841EA3EF2177534700C563A7 /* Ripple11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 841EA3EE2177534700C563A7 /* Ripple11.gif */; };
+		841FC144211C2DBC003C5A0A /* ReportIssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841FC143211C2DBC003C5A0A /* ReportIssueViewController.m */; };
+		84226F1E21311C040094DA71 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84226F1A21311C030094DA71 /* FLAnimatedImage.m */; };
+		84226F1F21311C040094DA71 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84226F1B21311C030094DA71 /* FLAnimatedImageView.m */; };
+		8428F0E0218DA1EC006C8BF5 /* OtpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428F0DE218DA1EB006C8BF5 /* OtpViewController.m */; };
+		8457CF2721197C77000E09DC /* CommonReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457CF2621197C77000E09DC /* CommonReportViewController.m */; };
+		845BD96A21522C3B007C7155 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BD96921522C3B007C7155 /* HCSStarRatingView.m */; };
+		845BD97221522CAE007C7155 /* selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845BD96C21522CAC007C7155 /* selected_star@2x.png */; };
+		845BD97321522CAE007C7155 /* not_selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 845BD96D21522CAC007C7155 /* not_selected_star.png */; };
+		845BD97421522CAE007C7155 /* half_selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 845BD96E21522CAC007C7155 /* half_selected_star.png */; };
+		845BD97521522CAE007C7155 /* not_selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845BD96F21522CAC007C7155 /* not_selected_star@2x.png */; };
+		845BD97621522CAE007C7155 /* selected_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 845BD97021522CAC007C7155 /* selected_star.png */; };
+		845BD97721522CAE007C7155 /* half_selected_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845BD97121522CAC007C7155 /* half_selected_star@2x.png */; };
+		845C5A5A2158BD7B0052B664 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C5A542158BD7B0052B664 /* ForgotPasswordViewController.m */; };
+		845C5A5B2158BD7B0052B664 /* ForgotPasswordOtpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C5A562158BD7B0052B664 /* ForgotPasswordOtpViewController.m */; };
+		845C5A5C2158BD7B0052B664 /* ForgotPasswordNewPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C5A572158BD7B0052B664 /* ForgotPasswordNewPwdViewController.m */; };
+		847976B421313A5700A25AE0 /* Ripple.gif in Resources */ = {isa = PBXBuildFile; fileRef = 847976B321313A5600A25AE0 /* Ripple.gif */; };
+		84AAA90323A4E3200013DABE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AAA90223A4E3200013DABE /* GoogleService-Info.plist */; };
+		84BA4F3D21A99857004AC25F /* Ripple1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84BA4F3C21A99857004AC25F /* Ripple1.gif */; };
+		84C16FA1217632A700D9804E /* CustomUploadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C16FA0217632A700D9804E /* CustomUploadTableViewCell.m */; };
+		84EE814A211D4BB0007D0257 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE8149211D4BB0007D0257 /* ChangePasswordViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		840EFC722106DB09005DA025 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 840EFC512106DB07005DA025 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 840EFC582106DB07005DA025;
-			remoteInfo = NewTaxiDriver;
-		};
-		840EFC7D2106DB09005DA025 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 840EFC512106DB07005DA025 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 840EFC582106DB07005DA025;
-			remoteInfo = NewTaxiDriver;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1E04FC1D2111DC7200428948 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		1E04FC1E2111DC7200428948 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		3347A365C059EF09A778AD09 /* Pods-NewTaxiDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTaxiDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewTaxiDriver/Pods-NewTaxiDriver.release.xcconfig"; sourceTree = "<group>"; };
+		82D6C080F0A7A200C4667004 /* Pods-NewTaxiDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTaxiDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewTaxiDriver/Pods-NewTaxiDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		8409FFBC213FAF6D0081455E /* ASStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStarRatingView.m; sourceTree = "<group>"; };
+		8409FFBD213FAF6D0081455E /* ASStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStarRatingView.h; sourceTree = "<group>"; };
 		840EFC592106DB07005DA025 /* NewTaxiDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTaxiDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		840EFC5C2106DB07005DA025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		840EFC5D2106DB07005DA025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		840EFC5F2106DB07005DA025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		840EFC602106DB07005DA025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		840EFC632106DB07005DA025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840EFC652106DB08005DA025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840EFC682106DB08005DA025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840EFC6A2106DB08005DA025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840EFC6B2106DB08005DA025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		840EFC712106DB09005DA025 /* NewTaxiDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTaxiDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840EFC752106DB09005DA025 /* NewTaxiDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaxiDriverTests.m; sourceTree = "<group>"; };
 		840EFC772106DB09005DA025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		840EFC7C2106DB09005DA025 /* NewTaxiDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTaxiDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840EFC802106DB09005DA025 /* NewTaxiDriverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaxiDriverUITests.m; sourceTree = "<group>"; };
 		840EFC822106DB09005DA025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840EFC8E2106DC78005DA025 /* CustomMyTripsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMyTripsTableViewCell.h; sourceTree = "<group>"; };
+		840EFC922106DC79005DA025 /* MenuViewPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewPopup.h; sourceTree = "<group>"; };
+		840EFC952106DC79005DA025 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		840EFC962106DC79005DA025 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		840EFC972106DC79005DA025 /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		840EFC982106DC79005DA025 /* alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alert.mp3; sourceTree = "<group>"; };
+		840EFC992106DC79005DA025 /* MenuViewPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewPopup.m; sourceTree = "<group>"; };
+		840EFC9B2106DC79005DA025 /* MenuViewPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewPopup.xib; sourceTree = "<group>"; };
+		840EFC9D2106DC79005DA025 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		840EFC9E2106DC79005DA025 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		840EFC9F2106DC79005DA025 /* CustomMyTripsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMyTripsTableViewCell.m; sourceTree = "<group>"; };
+		840EFCA22106DC7A005DA025 /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
+		840EFCA32106DC7A005DA025 /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
+		840EFCA52106DC7A005DA025 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		840EFCA62106DC7A005DA025 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		840EFCA82106DC7A005DA025 /* MyTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTripsViewController.h; sourceTree = "<group>"; };
+		840EFCA92106DC7A005DA025 /* MyTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTripsViewController.m; sourceTree = "<group>"; };
+		840EFCAB2106DC7A005DA025 /* TripDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripDetailsViewController.m; sourceTree = "<group>"; };
+		840EFCAC2106DC7A005DA025 /* TripDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripDetailsViewController.h; sourceTree = "<group>"; };
+		840EFCAE2106DC7A005DA025 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		840EFCAF2106DC7A005DA025 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		840EFCB12106DC7A005DA025 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		840EFCB22106DC7A005DA025 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		840EFCB42106DC7A005DA025 /* VechicleDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VechicleDetailsViewController.h; sourceTree = "<group>"; };
+		840EFCB52106DC7A005DA025 /* VechicleDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VechicleDetailsViewController.m; sourceTree = "<group>"; };
+		840EFCB72106DC7A005DA025 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		840EFCB82106DC7A005DA025 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		840EFCBA2106DC7A005DA025 /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		840EFCBB2106DC7A005DA025 /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		840EFCBD2106DC7A005DA025 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840EFCBE2106DC7A005DA025 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840EFCC02106DC7A005DA025 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840EFCC12106DC7A005DA025 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840EFCC32106DC7A005DA025 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		840EFCC42106DC7A005DA025 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		840EFCC62106DC7A005DA025 /* EndRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndRideViewController.h; sourceTree = "<group>"; };
+		840EFCC72106DC7A005DA025 /* EndRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndRideViewController.m; sourceTree = "<group>"; };
+		840EFCC92106DC7A005DA025 /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		840EFCCA2106DC7A005DA025 /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		840EFCCC2106DC7A005DA025 /* WorkingHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkingHoursViewController.m; sourceTree = "<group>"; };
+		840EFCCD2106DC7A005DA025 /* WorkingHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkingHoursViewController.h; sourceTree = "<group>"; };
+		84142A8421A535AD0024A66F /* slow-spring-board.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slow-spring-board.m4r"; sourceTree = "<group>"; };
+		841DE9BD2164DA23001455E1 /* CancelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CancelViewController.h; sourceTree = "<group>"; };
+		841DE9BE2164DA23001455E1 /* CancelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CancelViewController.m; sourceTree = "<group>"; };
+		841EA3EC2177123300C563A7 /* samdoc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samdoc.jpeg; sourceTree = "<group>"; };
+		841EA3EE2177534700C563A7 /* Ripple11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ripple11.gif; sourceTree = "<group>"; };
+		841FC142211C2DBC003C5A0A /* ReportIssueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportIssueViewController.h; sourceTree = "<group>"; };
+		841FC143211C2DBC003C5A0A /* ReportIssueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportIssueViewController.m; sourceTree = "<group>"; };
+		84205D4521647AD60030C438 /* NewTaxiDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewTaxiDriver.entitlements; sourceTree = "<group>"; };
+		84226F1A21311C030094DA71 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		84226F1B21311C030094DA71 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		84226F1C21311C030094DA71 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		84226F1D21311C030094DA71 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		8428F0DE218DA1EB006C8BF5 /* OtpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtpViewController.m; sourceTree = "<group>"; };
+		8428F0DF218DA1EB006C8BF5 /* OtpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtpViewController.h; sourceTree = "<group>"; };
+		8457CF2521197C77000E09DC /* CommonReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonReportViewController.h; sourceTree = "<group>"; };
+		8457CF2621197C77000E09DC /* CommonReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonReportViewController.m; sourceTree = "<group>"; };
+		845BD96821522C3B007C7155 /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		845BD96921522C3B007C7155 /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
+		845BD96C21522CAC007C7155 /* selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected_star@2x.png"; sourceTree = "<group>"; };
+		845BD96D21522CAC007C7155 /* not_selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_selected_star.png; sourceTree = "<group>"; };
+		845BD96E21522CAC007C7155 /* half_selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = half_selected_star.png; sourceTree = "<group>"; };
+		845BD96F21522CAC007C7155 /* not_selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "not_selected_star@2x.png"; sourceTree = "<group>"; };
+		845BD97021522CAC007C7155 /* selected_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_star.png; sourceTree = "<group>"; };
+		845BD97121522CAC007C7155 /* half_selected_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "half_selected_star@2x.png"; sourceTree = "<group>"; };
+		845C5A542158BD7B0052B664 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		845C5A552158BD7B0052B664 /* ForgotPasswordNewPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordNewPwdViewController.h; sourceTree = "<group>"; };
+		845C5A562158BD7B0052B664 /* ForgotPasswordOtpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordOtpViewController.m; sourceTree = "<group>"; };
+		845C5A572158BD7B0052B664 /* ForgotPasswordNewPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordNewPwdViewController.m; sourceTree = "<group>"; };
+		845C5A582158BD7B0052B664 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		845C5A592158BD7B0052B664 /* ForgotPasswordOtpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordOtpViewController.h; sourceTree = "<group>"; };
+		847976B321313A5600A25AE0 /* Ripple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ripple.gif; sourceTree = "<group>"; };
+		84AAA90223A4E3200013DABE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84BA4F3C21A99857004AC25F /* Ripple1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Ripple1.gif; sourceTree = "<group>"; };
+		84C16F9F217632A700D9804E /* CustomUploadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUploadTableViewCell.h; sourceTree = "<group>"; };
+		84C16FA0217632A700D9804E /* CustomUploadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUploadTableViewCell.m; sourceTree = "<group>"; };
+		84EE8148211D4BB0007D0257 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		84EE8149211D4BB0007D0257 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		8F592DE6D9AF33C960123C3A /* libPods-NewTaxiDriver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewTaxiDriver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,26 +165,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840EFC6E2106DB09005DA025 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840EFC792106DB09005DA025 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6EEC75E03CB27862C54356D2 /* libPods-NewTaxiDriver.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8409FFBB213FAF6D0081455E /* ASStar Rating */ = {
+			isa = PBXGroup;
+			children = (
+				8409FFBC213FAF6D0081455E /* ASStarRatingView.m */,
+				8409FFBD213FAF6D0081455E /* ASStarRatingView.h */,
+			);
+			path = "ASStar Rating";
+			sourceTree = "<group>";
+		};
 		840EFC502106DB07005DA025 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +188,8 @@
 				840EFC742106DB09005DA025 /* NewTaxiDriverTests */,
 				840EFC7F2106DB09005DA025 /* NewTaxiDriverUITests */,
 				840EFC5A2106DB07005DA025 /* Products */,
+				E85F8B6E34B28FD291535B31 /* Pods */,
+				FD73B0723FD96C7F0B4757B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				840EFC592106DB07005DA025 /* NewTaxiDriver.app */,
-				840EFC712106DB09005DA025 /* NewTaxiDriverTests.xctest */,
-				840EFC7C2106DB09005DA025 /* NewTaxiDriverUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,13 +204,16 @@
 		840EFC5B2106DB07005DA025 /* NewTaxiDriver */ = {
 			isa = PBXGroup;
 			children = (
-				840EFC5C2106DB07005DA025 /* AppDelegate.h */,
-				840EFC5D2106DB07005DA025 /* AppDelegate.m */,
-				840EFC5F2106DB07005DA025 /* ViewController.h */,
-				840EFC602106DB07005DA025 /* ViewController.m */,
-				840EFC622106DB07005DA025 /* Main.storyboard */,
+				84AAA90223A4E3200013DABE /* GoogleService-Info.plist */,
+				84205D4521647AD60030C438 /* NewTaxiDriver.entitlements */,
+				84142A8421A535AD0024A66F /* slow-spring-board.m4r */,
+				841ABDA4215A1B1700C11A2A /* Storyboard */,
+				841ABD93215A179B00C11A2A /* Alert, Location and GIF */,
+				841ABD91215A16FD00C11A2A /* Menu View Popup */,
+				841ABD90215A16A300C11A2A /* Custom Files */,
+				840EFCA02106DC7A005DA025 /* Controllers */,
+				841ABD8E215A167500C11A2A /* Custom Cell */,
 				840EFC652106DB08005DA025 /* Assets.xcassets */,
-				840EFC672106DB08005DA025 /* LaunchScreen.storyboard */,
 				840EFC6A2106DB08005DA025 /* Info.plist */,
 				840EFC6B2106DB08005DA025 /* main.m */,
 			);
@@ -132,6 +238,385 @@
 			path = NewTaxiDriverUITests;
 			sourceTree = "<group>";
 		};
+		840EFC912106DC79005DA025 /* Change Launage Classess */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Change Launage Classess";
+			sourceTree = "<group>";
+		};
+		840EFC942106DC79005DA025 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC952106DC79005DA025 /* Reachability.m */,
+				840EFC962106DC79005DA025 /* Reachability.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		840EFC9C2106DC79005DA025 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC9D2106DC79005DA025 /* Constant.h */,
+				840EFC9E2106DC79005DA025 /* Constant.m */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		840EFCA02106DC7A005DA025 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8428F0DD218DA1EB006C8BF5 /* Otp View Controller */,
+				841ABD8D215A164100C11A2A /* Change Password View Controller */,
+				841ABD8C215A161C00C11A2A /* Profile View Controller */,
+				841ABD8B215A15A600C11A2A /* Forgot Password New Password View Controller */,
+				841ABD8A215A157000C11A2A /* Forgot Password OTP View Controller */,
+				841ABD89215A155600C11A2A /* Forgot Password View Controller */,
+				840EFCA12106DC7A005DA025 /* Reports View Controller */,
+				840EFCA42106DC7A005DA025 /* Front View Controller */,
+				840EFCA72106DC7A005DA025 /* My Trips View Controller */,
+				840EFCAA2106DC7A005DA025 /* Trip Details View Controller */,
+				840EFCAD2106DC7A005DA025 /* Register View Controller */,
+				840EFCB02106DC7A005DA025 /* Alert View Controller */,
+				840EFCB32106DC7A005DA025 /* Vechicle Details View Controller */,
+				840EFCB62106DC7A005DA025 /* Login View Controller */,
+				840EFCB92106DC7A005DA025 /* Track View Controller */,
+				840EFCBC2106DC7A005DA025 /* View Controller */,
+				840EFCBF2106DC7A005DA025 /* Appdelegate */,
+				840EFCC22106DC7A005DA025 /* Message View Controller */,
+				840EFCC52106DC7A005DA025 /* End Ride View Controller */,
+				840EFCC82106DC7A005DA025 /* My Account View Controller */,
+				840EFCCB2106DC7A005DA025 /* Working Hours View Controller */,
+				841DE9C02164DA2A001455E1 /* Cancel View Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		840EFCA12106DC7A005DA025 /* Reports View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCA22106DC7A005DA025 /* ReportsViewController.h */,
+				840EFCA32106DC7A005DA025 /* ReportsViewController.m */,
+				8457CF2521197C77000E09DC /* CommonReportViewController.h */,
+				8457CF2621197C77000E09DC /* CommonReportViewController.m */,
+				841FC142211C2DBC003C5A0A /* ReportIssueViewController.h */,
+				841FC143211C2DBC003C5A0A /* ReportIssueViewController.m */,
+			);
+			path = "Reports View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCA42106DC7A005DA025 /* Front View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCA52106DC7A005DA025 /* FrontViewController.h */,
+				840EFCA62106DC7A005DA025 /* FrontViewController.m */,
+			);
+			path = "Front View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCA72106DC7A005DA025 /* My Trips View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCA82106DC7A005DA025 /* MyTripsViewController.h */,
+				840EFCA92106DC7A005DA025 /* MyTripsViewController.m */,
+			);
+			path = "My Trips View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCAA2106DC7A005DA025 /* Trip Details View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCAB2106DC7A005DA025 /* TripDetailsViewController.m */,
+				840EFCAC2106DC7A005DA025 /* TripDetailsViewController.h */,
+			);
+			path = "Trip Details View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCAD2106DC7A005DA025 /* Register View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				841EA3EC2177123300C563A7 /* samdoc.jpeg */,
+				840EFCAE2106DC7A005DA025 /* RegisterViewController.m */,
+				840EFCAF2106DC7A005DA025 /* RegisterViewController.h */,
+			);
+			path = "Register View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCB02106DC7A005DA025 /* Alert View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCB12106DC7A005DA025 /* AlertViewController.m */,
+				840EFCB22106DC7A005DA025 /* AlertViewController.h */,
+			);
+			path = "Alert View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCB32106DC7A005DA025 /* Vechicle Details View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCB42106DC7A005DA025 /* VechicleDetailsViewController.h */,
+				840EFCB52106DC7A005DA025 /* VechicleDetailsViewController.m */,
+			);
+			path = "Vechicle Details View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCB62106DC7A005DA025 /* Login View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCB72106DC7A005DA025 /* LoginViewController.m */,
+				840EFCB82106DC7A005DA025 /* LoginViewController.h */,
+			);
+			path = "Login View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCB92106DC7A005DA025 /* Track View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCBA2106DC7A005DA025 /* TrackViewController.m */,
+				840EFCBB2106DC7A005DA025 /* TrackViewController.h */,
+			);
+			path = "Track View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCBC2106DC7A005DA025 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCBD2106DC7A005DA025 /* ViewController.m */,
+				840EFCBE2106DC7A005DA025 /* ViewController.h */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCBF2106DC7A005DA025 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCC02106DC7A005DA025 /* AppDelegate.h */,
+				840EFCC12106DC7A005DA025 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		840EFCC22106DC7A005DA025 /* Message View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCC32106DC7A005DA025 /* MessageViewController.m */,
+				840EFCC42106DC7A005DA025 /* MessageViewController.h */,
+			);
+			path = "Message View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCC52106DC7A005DA025 /* End Ride View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCC62106DC7A005DA025 /* EndRideViewController.h */,
+				840EFCC72106DC7A005DA025 /* EndRideViewController.m */,
+			);
+			path = "End Ride View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCC82106DC7A005DA025 /* My Account View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCC92106DC7A005DA025 /* MyAccountViewController.m */,
+				840EFCCA2106DC7A005DA025 /* MyAccountViewController.h */,
+			);
+			path = "My Account View Controller";
+			sourceTree = "<group>";
+		};
+		840EFCCB2106DC7A005DA025 /* Working Hours View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840EFCCC2106DC7A005DA025 /* WorkingHoursViewController.m */,
+				840EFCCD2106DC7A005DA025 /* WorkingHoursViewController.h */,
+			);
+			path = "Working Hours View Controller";
+			sourceTree = "<group>";
+		};
+		841ABD89215A155600C11A2A /* Forgot Password View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845C5A582158BD7B0052B664 /* ForgotPasswordViewController.h */,
+				845C5A542158BD7B0052B664 /* ForgotPasswordViewController.m */,
+			);
+			path = "Forgot Password View Controller";
+			sourceTree = "<group>";
+		};
+		841ABD8A215A157000C11A2A /* Forgot Password OTP View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845C5A592158BD7B0052B664 /* ForgotPasswordOtpViewController.h */,
+				845C5A562158BD7B0052B664 /* ForgotPasswordOtpViewController.m */,
+			);
+			path = "Forgot Password OTP View Controller";
+			sourceTree = "<group>";
+		};
+		841ABD8B215A15A600C11A2A /* Forgot Password New Password View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845C5A552158BD7B0052B664 /* ForgotPasswordNewPwdViewController.h */,
+				845C5A572158BD7B0052B664 /* ForgotPasswordNewPwdViewController.m */,
+			);
+			path = "Forgot Password New Password View Controller";
+			sourceTree = "<group>";
+		};
+		841ABD8C215A161C00C11A2A /* Profile View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E04FC1D2111DC7200428948 /* ProfileViewController.h */,
+				1E04FC1E2111DC7200428948 /* ProfileViewController.m */,
+			);
+			path = "Profile View Controller";
+			sourceTree = "<group>";
+		};
+		841ABD8D215A164100C11A2A /* Change Password View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84EE8148211D4BB0007D0257 /* ChangePasswordViewController.h */,
+				84EE8149211D4BB0007D0257 /* ChangePasswordViewController.m */,
+			);
+			path = "Change Password View Controller";
+			sourceTree = "<group>";
+		};
+		841ABD8E215A167500C11A2A /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				841ABD8F215A168000C11A2A /* My Trips  */,
+				84C16FA2217632B200D9804E /* Upload Files */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		841ABD8F215A168000C11A2A /* My Trips  */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC8E2106DC78005DA025 /* CustomMyTripsTableViewCell.h */,
+				840EFC9F2106DC79005DA025 /* CustomMyTripsTableViewCell.m */,
+			);
+			path = "My Trips ";
+			sourceTree = "<group>";
+		};
+		841ABD90215A16A300C11A2A /* Custom Files */ = {
+			isa = PBXGroup;
+			children = (
+				845BD96721522C3B007C7155 /* HCSStar Rating */,
+				840EFC942106DC79005DA025 /* Network */,
+				840EFC912106DC79005DA025 /* Change Launage Classess */,
+				84226F1921311C030094DA71 /* FLAnimation */,
+				840EFC9C2106DC79005DA025 /* constant */,
+				8409FFBB213FAF6D0081455E /* ASStar Rating */,
+				845BD96B21522CAC007C7155 /* stars */,
+			);
+			path = "Custom Files";
+			sourceTree = "<group>";
+		};
+		841ABD91215A16FD00C11A2A /* Menu View Popup */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC922106DC79005DA025 /* MenuViewPopup.h */,
+				840EFC992106DC79005DA025 /* MenuViewPopup.m */,
+				840EFC9B2106DC79005DA025 /* MenuViewPopup.xib */,
+			);
+			path = "Menu View Popup";
+			sourceTree = "<group>";
+		};
+		841ABD93215A179B00C11A2A /* Alert, Location and GIF */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC972106DC79005DA025 /* Location.gpx */,
+				84BA4F3C21A99857004AC25F /* Ripple1.gif */,
+				841EA3EE2177534700C563A7 /* Ripple11.gif */,
+				847976B321313A5600A25AE0 /* Ripple.gif */,
+				840EFC982106DC79005DA025 /* alert.mp3 */,
+			);
+			path = "Alert, Location and GIF";
+			sourceTree = "<group>";
+		};
+		841ABDA4215A1B1700C11A2A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				840EFC622106DB07005DA025 /* Main.storyboard */,
+				840EFC672106DB08005DA025 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		841DE9C02164DA2A001455E1 /* Cancel View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				841DE9BD2164DA23001455E1 /* CancelViewController.h */,
+				841DE9BE2164DA23001455E1 /* CancelViewController.m */,
+			);
+			path = "Cancel View Controller";
+			sourceTree = "<group>";
+		};
+		84226F1921311C030094DA71 /* FLAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				84226F1A21311C030094DA71 /* FLAnimatedImage.m */,
+				84226F1B21311C030094DA71 /* FLAnimatedImageView.m */,
+				84226F1C21311C030094DA71 /* FLAnimatedImage.h */,
+				84226F1D21311C030094DA71 /* FLAnimatedImageView.h */,
+			);
+			path = FLAnimation;
+			sourceTree = "<group>";
+		};
+		8428F0DD218DA1EB006C8BF5 /* Otp View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8428F0DE218DA1EB006C8BF5 /* OtpViewController.m */,
+				8428F0DF218DA1EB006C8BF5 /* OtpViewController.h */,
+			);
+			path = "Otp View Controller";
+			sourceTree = "<group>";
+		};
+		845BD96721522C3B007C7155 /* HCSStar Rating */ = {
+			isa = PBXGroup;
+			children = (
+				845BD96821522C3B007C7155 /* HCSStarRatingView.h */,
+				845BD96921522C3B007C7155 /* HCSStarRatingView.m */,
+			);
+			path = "HCSStar Rating";
+			sourceTree = "<group>";
+		};
+		845BD96B21522CAC007C7155 /* stars */ = {
+			isa = PBXGroup;
+			children = (
+				845BD96C21522CAC007C7155 /* selected_star@2x.png */,
+				845BD96D21522CAC007C7155 /* not_selected_star.png */,
+				845BD96E21522CAC007C7155 /* half_selected_star.png */,
+				845BD96F21522CAC007C7155 /* not_selected_star@2x.png */,
+				845BD97021522CAC007C7155 /* selected_star.png */,
+				845BD97121522CAC007C7155 /* half_selected_star@2x.png */,
+			);
+			path = stars;
+			sourceTree = "<group>";
+		};
+		84C16FA2217632B200D9804E /* Upload Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C16F9F217632A700D9804E /* CustomUploadTableViewCell.h */,
+				84C16FA0217632A700D9804E /* CustomUploadTableViewCell.m */,
+			);
+			path = "Upload Files";
+			sourceTree = "<group>";
+		};
+		E85F8B6E34B28FD291535B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D6C080F0A7A200C4667004 /* Pods-NewTaxiDriver.debug.xcconfig */,
+				3347A365C059EF09A778AD09 /* Pods-NewTaxiDriver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD73B0723FD96C7F0B4757B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F592DE6D9AF33C960123C3A /* libPods-NewTaxiDriver.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +624,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840EFC852106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriver" */;
 			buildPhases = (
+				053B1F37FE1EADB9402E4293 /* [CP] Check Pods Manifest.lock */,
 				840EFC552106DB07005DA025 /* Sources */,
 				840EFC562106DB07005DA025 /* Frameworks */,
 				840EFC572106DB07005DA025 /* Resources */,
+				449553BD774FA799B73895D7 /* [CP] Copy Pods Resources */,
+				844E2B752201AF8700454091 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,42 +639,6 @@
 			productName = NewTaxiDriver;
 			productReference = 840EFC592106DB07005DA025 /* NewTaxiDriver.app */;
 			productType = "com.apple.product-type.application";
-		};
-		840EFC702106DB09005DA025 /* NewTaxiDriverTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 840EFC882106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverTests" */;
-			buildPhases = (
-				840EFC6D2106DB09005DA025 /* Sources */,
-				840EFC6E2106DB09005DA025 /* Frameworks */,
-				840EFC6F2106DB09005DA025 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				840EFC732106DB09005DA025 /* PBXTargetDependency */,
-			);
-			name = NewTaxiDriverTests;
-			productName = NewTaxiDriverTests;
-			productReference = 840EFC712106DB09005DA025 /* NewTaxiDriverTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		840EFC7B2106DB09005DA025 /* NewTaxiDriverUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 840EFC8B2106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverUITests" */;
-			buildPhases = (
-				840EFC782106DB09005DA025 /* Sources */,
-				840EFC792106DB09005DA025 /* Frameworks */,
-				840EFC7A2106DB09005DA025 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				840EFC7E2106DB09005DA025 /* PBXTargetDependency */,
-			);
-			name = NewTaxiDriverUITests;
-			productName = NewTaxiDriverUITests;
-			productReference = 840EFC7C2106DB09005DA025 /* NewTaxiDriverUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,14 +651,11 @@
 				TargetAttributes = {
 					840EFC582106DB07005DA025 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					840EFC702106DB09005DA025 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 840EFC582106DB07005DA025;
-					};
-					840EFC7B2106DB09005DA025 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 840EFC582106DB07005DA025;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -224,8 +673,6 @@
 			projectRoot = "";
 			targets = (
 				840EFC582106DB07005DA025 /* NewTaxiDriver */,
-				840EFC702106DB09005DA025 /* NewTaxiDriverTests */,
-				840EFC7B2106DB09005DA025 /* NewTaxiDriverUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,69 +682,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845BD97221522CAE007C7155 /* selected_star@2x.png in Resources */,
+				84AAA90323A4E3200013DABE /* GoogleService-Info.plist in Resources */,
 				840EFC692106DB08005DA025 /* LaunchScreen.storyboard in Resources */,
+				845BD97321522CAE007C7155 /* not_selected_star.png in Resources */,
+				847976B421313A5700A25AE0 /* Ripple.gif in Resources */,
 				840EFC662106DB08005DA025 /* Assets.xcassets in Resources */,
+				845BD97721522CAE007C7155 /* half_selected_star@2x.png in Resources */,
+				845BD97421522CAE007C7155 /* half_selected_star.png in Resources */,
+				840EFCD22106DC7A005DA025 /* Location.gpx in Resources */,
+				845BD97521522CAE007C7155 /* not_selected_star@2x.png in Resources */,
+				84BA4F3D21A99857004AC25F /* Ripple1.gif in Resources */,
+				840EFCD52106DC7A005DA025 /* MenuViewPopup.xib in Resources */,
 				840EFC642106DB07005DA025 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840EFC6F2106DB09005DA025 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840EFC7A2106DB09005DA025 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				841EA3EF2177534700C563A7 /* Ripple11.gif in Resources */,
+				841EA3ED2177123400C563A7 /* samdoc.jpeg in Resources */,
+				840EFCD32106DC7A005DA025 /* alert.mp3 in Resources */,
+				845BD97621522CAE007C7155 /* selected_star.png in Resources */,
+				84142A8521A535AE0024A66F /* slow-spring-board.m4r in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053B1F37FE1EADB9402E4293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewTaxiDriver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		449553BD774FA799B73895D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewTaxiDriver/Pods-NewTaxiDriver-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewTaxiDriver/Pods-NewTaxiDriver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844E2B752201AF8700454091 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		840EFC552106DB07005DA025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840EFC612106DB07005DA025 /* ViewController.m in Sources */,
+				840EFCE22106DC7B005DA025 /* AppDelegate.m in Sources */,
+				84EE814A211D4BB0007D0257 /* ChangePasswordViewController.m in Sources */,
+				840EFCE12106DC7B005DA025 /* ViewController.m in Sources */,
+				840EFCD82106DC7A005DA025 /* ReportsViewController.m in Sources */,
+				840EFCDE2106DC7A005DA025 /* VechicleDetailsViewController.m in Sources */,
+				1E04FC1F2111DC7200428948 /* ProfileViewController.m in Sources */,
+				845BD96A21522C3B007C7155 /* HCSStarRatingView.m in Sources */,
+				840EFCE32106DC7B005DA025 /* MessageViewController.m in Sources */,
+				845C5A5B2158BD7B0052B664 /* ForgotPasswordOtpViewController.m in Sources */,
+				841FC144211C2DBC003C5A0A /* ReportIssueViewController.m in Sources */,
+				840EFCD62106DC7A005DA025 /* Constant.m in Sources */,
+				845C5A5A2158BD7B0052B664 /* ForgotPasswordViewController.m in Sources */,
+				840EFCD92106DC7A005DA025 /* FrontViewController.m in Sources */,
+				840EFCE02106DC7A005DA025 /* TrackViewController.m in Sources */,
+				84C16FA1217632A700D9804E /* CustomUploadTableViewCell.m in Sources */,
+				84226F1F21311C040094DA71 /* FLAnimatedImageView.m in Sources */,
 				840EFC6C2106DB08005DA025 /* main.m in Sources */,
-				840EFC5E2106DB07005DA025 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840EFC6D2106DB09005DA025 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				840EFC762106DB09005DA025 /* NewTaxiDriverTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		840EFC782106DB09005DA025 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				840EFC812106DB09005DA025 /* NewTaxiDriverUITests.m in Sources */,
+				840EFCDA2106DC7A005DA025 /* MyTripsViewController.m in Sources */,
+				840EFCDF2106DC7A005DA025 /* LoginViewController.m in Sources */,
+				840EFCD72106DC7A005DA025 /* CustomMyTripsTableViewCell.m in Sources */,
+				840EFCE62106DC7B005DA025 /* WorkingHoursViewController.m in Sources */,
+				8409FFBE213FAF6D0081455E /* ASStarRatingView.m in Sources */,
+				845C5A5C2158BD7B0052B664 /* ForgotPasswordNewPwdViewController.m in Sources */,
+				841DE9BF2164DA23001455E1 /* CancelViewController.m in Sources */,
+				840EFCE42106DC7B005DA025 /* EndRideViewController.m in Sources */,
+				84226F1E21311C040094DA71 /* FLAnimatedImage.m in Sources */,
+				8457CF2721197C77000E09DC /* CommonReportViewController.m in Sources */,
+				840EFCDD2106DC7A005DA025 /* AlertViewController.m in Sources */,
+				840EFCDC2106DC7A005DA025 /* RegisterViewController.m in Sources */,
+				840EFCE52106DC7B005DA025 /* MyAccountViewController.m in Sources */,
+				840EFCD42106DC7A005DA025 /* MenuViewPopup.m in Sources */,
+				840EFCDB2106DC7A005DA025 /* TripDetailsViewController.m in Sources */,
+				8428F0E0218DA1EC006C8BF5 /* OtpViewController.m in Sources */,
+				840EFCD12106DC7A005DA025 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		840EFC732106DB09005DA025 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 840EFC582106DB07005DA025 /* NewTaxiDriver */;
-			targetProxy = 840EFC722106DB09005DA025 /* PBXContainerItemProxy */;
-		};
-		840EFC7E2106DB09005DA025 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 840EFC582106DB07005DA025 /* NewTaxiDriver */;
-			targetProxy = 840EFC7D2106DB09005DA025 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		840EFC622106DB07005DA025 /* Main.storyboard */ = {
@@ -351,9 +859,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jaswinder Singh (4UC9MD2RJ4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UC9MD2RJ4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -370,7 +879,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -409,9 +918,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jaswinder Singh (4UC9MD2RJ4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4UC9MD2RJ4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -422,7 +932,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -431,109 +941,49 @@
 		};
 		840EFC862106DB09005DA025 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D6C080F0A7A200C4667004 /* Pods-NewTaxiDriver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewTaxiDriver/NewTaxiDriver.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY582H2QS6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4UC9MD2RJ4;
 				INFOPLIST_FILE = NewTaxiDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canadiansaferide.CanadianNewDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		840EFC872106DB09005DA025 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3347A365C059EF09A778AD09 /* Pods-NewTaxiDriver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewTaxiDriver/NewTaxiDriver.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY582H2QS6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4UC9MD2RJ4;
 				INFOPLIST_FILE = NewTaxiDriver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canadiansaferide.CanadianNewDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		840EFC892106DB09005DA025 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY582H2QS6;
-				INFOPLIST_FILE = NewTaxiDriverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTaxiDriver.app/NewTaxiDriver";
-			};
-			name = Debug;
-		};
-		840EFC8A2106DB09005DA025 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY582H2QS6;
-				INFOPLIST_FILE = NewTaxiDriverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewTaxiDriver.app/NewTaxiDriver";
-			};
-			name = Release;
-		};
-		840EFC8C2106DB09005DA025 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY582H2QS6;
-				INFOPLIST_FILE = NewTaxiDriverUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NewTaxiDriver;
-			};
-			name = Debug;
-		};
-		840EFC8D2106DB09005DA025 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY582H2QS6;
-				INFOPLIST_FILE = NewTaxiDriverUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.latlon.NewTaxiDriverUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NewTaxiDriver;
 			};
 			name = Release;
 		};
@@ -554,24 +1004,6 @@
 			buildConfigurations = (
 				840EFC862106DB09005DA025 /* Debug */,
 				840EFC872106DB09005DA025 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		840EFC882106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				840EFC892106DB09005DA025 /* Debug */,
-				840EFC8A2106DB09005DA025 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		840EFC8B2106DB09005DA025 /* Build configuration list for PBXNativeTarget "NewTaxiDriverUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				840EFC8C2106DB09005DA025 /* Debug */,
-				840EFC8D2106DB09005DA025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
